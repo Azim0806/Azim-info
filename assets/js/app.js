@@ -138,10 +138,13 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
+              <form action="https://formsubmit.co/azimpakna@gmail.com" method="POST">
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
+                  <input type="hidden" name="_next" value="https://azimm.netlify.app/">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="box">
               
                   <div id="main">
                     <button id="lnch" type="button" value="Send" >Send</button>
